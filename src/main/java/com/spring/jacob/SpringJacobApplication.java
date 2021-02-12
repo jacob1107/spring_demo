@@ -16,10 +16,7 @@ public class SpringJacobApplication {
 	public static void main(String[] args) {
 		int i =1/0;
 
-		int i1 =1/0;
-		int i2 =1/0;
-		int i3 =1/0;
-		int i4 =1/0;
+
 		int o=0;
 		System.err.println(i);
 		SpringApplication.run(SpringJacobApplication.class, args);
