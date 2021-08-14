@@ -15,6 +15,7 @@ public class SpringJacobApplication {
 
 	public static void main(String[] args) {
 		System.out.println("这里是eclipse 分支");
+		System.out.println("这里是idea 分支");
 
 		int i = 1 / 0;
 
