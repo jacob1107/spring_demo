@@ -14,10 +14,11 @@ public class SpringJacobApplication {
 	private static final Logger log = LoggerFactory.getLogger(SpringJacobApplication.class);
 
 	public static void main(String[] args) {
-		int i =1/0;
+		System.out.println("这里是eclipse 分支");
 
+		int i = 1 / 0;
 
-		int o=0;
+		int o = 0;
 		System.err.println(i);
 		SpringApplication.run(SpringJacobApplication.class, args);
 	}
